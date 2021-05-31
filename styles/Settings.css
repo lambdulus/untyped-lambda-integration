@@ -1,0 +1,59 @@
+.untyped-lambda-box--settings {
+  margin-top: 20px;
+}
+
+.untyped-lambda-settings-label {
+  margin-left: 7px;
+}
+
+.stratsLabel {
+  /* margin-right: 20px; */
+  margin: 0;
+  margin-top: 10px;
+}
+
+.untyped-lambda-settings--strategy-radio-wrapper {
+  margin-left: 10px;
+  /* margin-right: 10px; */
+}
+
+.untyped-lambda-settings--strategy-radio-wrapper:first-of-type {
+  padding-right: 10px;
+  border-right: 2px solid gray;
+}
+
+.untyped-lambda-settings--strategy-radio-wrapper input {
+  position: relative;
+  top: 2px;
+}
+
+.box-settings {
+  padding: 5px;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  /* width: 97%; */
+  border-bottom: 2px solid black;
+}
+
+.untyped-lambda-settings-SLI {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.untyped-lambda-settings-expand {
+  margin-top: 20px;
+  display: block;
+}
+
+.untyped-lambda-settings-strategies {
+  margin-top: 5px;
+  margin-right: 50px;
+}
+
+.untyped-lambda-settings-SDE {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}

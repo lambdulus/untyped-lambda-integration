@@ -1,0 +1,70 @@
+.boxContainer.inactive:hover .inactiveMessage {
+  color: rgb(59, 59, 59);
+}
+
+.inactiveStep {
+  color: gray;
+}
+
+.hiddenIcon, .hiddenMacroIcon {
+  margin-left: 0.75em;
+  display: none;
+}
+
+li:hover > .step > .inlineblock > .hiddenIcon {
+  display: inline;
+  color: black;
+  cursor: pointer;
+}
+
+li:hover .hiddenMacroIcon {
+  color: black;
+  display: inline;
+}
+
+.controlBtn {
+  --mdc-theme-primary: #1976d2;
+  display: inline-block;
+  font-size: 0.5em;
+  margin-right: 1em;
+
+}
+
+.badge {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid black;
+  border-radius: 1rem;
+  display: inline-block;
+  font-size: 0.6em;
+  margin-right: 1em;
+}
+
+.makeBadge {
+  cursor: pointer;
+}
+
+.makeBadge:hover {
+  background-color: #BDBDBD;
+}
+
+.inactiveMessage {
+  color: gray;
+  font-size: 0.6em;
+  margin-left: 0;
+}
+
+.emptyStep {
+  margin-top: 0;
+  /* margin-bottom: -20px; */
+  /* font-size: 0.7em; */
+}
+
+.boxExercise .activeStep .substitutedArg,
+.boxExercise .activeStep .redex,
+.boxExercise .churchnumeral.redex.argument.abstraction {
+  border: none;
+  background-color: white;
+  padding: 0;
+}
